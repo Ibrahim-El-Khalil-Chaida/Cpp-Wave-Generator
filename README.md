@@ -1,26 +1,3 @@
-## 📦 Repository Name
-
-**`esp32-interrupt-http-client`**
-
----
-
-## 📝 Description
-
-> An ESP32/Arduino sketch that triggers an HTTP GET request on a GPIO pin change (interrupt), reporting a device status to your server.
-
----
-
-## 🏷 Topics / Tags
-
-```
-esp32, Arduino, interrupts, wifi, HTTP, iot, c++, embedded
-```
-
----
-
-## 📖 `README.md`
-
-````markdown
 # ESP32 Interrupt HTTP Client
 
 An ESP32/Arduino sketch that uses a GPIO-change interrupt to fire off an HTTP GET reporting a device status to your server.
@@ -46,5 +23,3 @@ An ESP32/Arduino sketch that uses a GPIO-change interrupt to fire off an HTTP GE
 3. Configure pins, WiFi, URL.
 4. Upload to your ESP32.
 5. Flip your sensor/switch → check Serial Monitor for HTTP response.
-
-```
